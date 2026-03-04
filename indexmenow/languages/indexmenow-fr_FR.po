@@ -1,0 +1,452 @@
+# French translation for IndexMeNow
+# Copyright (C) 2024 IndexMeNow
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: IndexMeNow 1.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-01 00:00+0000\n"
+"PO-Revision-Date: 2026-03-03 16:29+0100\n"
+"Last-Translator: IndexMeNow <contact@indexmenow.com>\n"
+"Language-Team: French\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.5\n"
+
+#. Plugin Name of the plugin
+msgid "IndexMeNow"
+msgstr "IndexMeNow"
+
+#. Description of the plugin
+msgid "Push your URLs to IndexMeNow for fast Google indexation. Supports manual push, auto-push on publish, and auto-push on update."
+msgstr "Envoyez vos URLs vers IndexMeNow pour une indexation Google rapide. Supporte l'envoi manuel, l'envoi automatique à la publication et à la mise à jour."
+
+#: indexmenow.php
+msgid "Settings"
+msgstr "Réglages"
+
+#: includes/class-settings-page.php
+msgid "Invalid API key. Please check your key and try again."
+msgstr "Clé API invalide. Veuillez vérifier votre clé et réessayer."
+
+#: includes/class-settings-page.php
+msgid "Invalid API key."
+msgstr "Clé API invalide."
+
+#: includes/class-settings-page.php
+msgid "Loading projects..."
+msgstr "Chargement des projets..."
+
+#: includes/class-settings-page.php
+msgid "Could not load projects. Check your API key."
+msgstr "Impossible de charger les projets. Vérifiez votre clé API."
+
+#: includes/class-settings-page.php
+msgid "No projects found in your account."
+msgstr "Aucun projet trouvé dans votre compte."
+
+#: includes/class-settings-page.php
+msgid "-- Select a project --"
+msgstr "-- Sélectionner un projet --"
+
+#: includes/class-settings-page.php
+msgid "Could not load projects."
+msgstr "Impossible de charger les projets."
+
+#: includes/class-settings-page.php
+msgid "No push history yet."
+msgstr "Aucun historique d'envoi."
+
+#: includes/class-settings-page.php
+msgid "Loading..."
+msgstr "Chargement..."
+
+#: includes/class-settings-page.php
+msgid "Error loading history."
+msgstr "Erreur lors du chargement de l'historique."
+
+#: includes/class-settings-page.php
+msgid "Refreshing..."
+msgstr "Actualisation..."
+
+#: includes/class-settings-page.php
+msgid "Could not refresh credits."
+msgstr "Impossible d'actualiser les crédits."
+
+#: includes/class-settings-page.php
+msgid "Are you sure you want to delete the selected history entries? This action cannot be undone."
+msgstr "Êtes-vous sûr de vouloir supprimer les entrées d'historique sélectionnées ? Cette action est irréversible."
+
+#: includes/class-settings-page.php
+msgid "Could not purge history."
+msgstr "Impossible de purger l'historique."
+
+#: includes/class-settings-page.php
+msgid "Could not refresh credits. Check your API key."
+msgstr "Impossible d'actualiser les crédits. Vérifiez votre clé API."
+
+#: includes/class-settings-page.php
+msgid "Loading sitemap..."
+msgstr "Chargement du sitemap..."
+
+#: includes/class-settings-page.php
+msgid "Pushing URLs..."
+msgstr "Envoi des URLs..."
+
+#: includes/class-settings-page.php
+msgid "Could not load sitemap."
+msgstr "Impossible de charger le sitemap."
+
+#: includes/class-settings-page.php
+#, php-format
+msgid "Push %1$d URLs from sitemap to IndexMeNow? This will use %2$d credits."
+msgstr "Envoyer %1$d URLs du sitemap vers IndexMeNow ? Cela utilisera %2$d crédits."
+
+#: includes/class-settings-page.php
+msgid "No URLs selected."
+msgstr "Aucune URL sélectionnée."
+
+#: includes/class-settings-page.php
+#, php-format
+msgid "%d entry deleted."
+msgid_plural "%d entries deleted."
+msgstr[0] "%d entrée supprimée."
+msgstr[1] "%d entrées supprimées."
+
+#: includes/class-url-pusher.php
+msgid "API key not configured."
+msgstr "Clé API non configurée."
+
+#: includes/class-url-pusher.php
+msgid "Could not retrieve credits. Check your API key."
+msgstr "Impossible de récupérer les crédits. Vérifiez votre clé API."
+
+#: includes/class-url-pusher.php
+msgid "Insufficient credits."
+msgstr "Crédits insuffisants."
+
+#: includes/class-url-pusher.php
+msgid "URL pushed successfully."
+msgstr "URL envoyée avec succès."
+
+#: includes/class-url-pusher.php
+msgid "No project selected. Please select a project in Settings > IndexMeNow."
+msgstr "Aucun projet sélectionné. Veuillez sélectionner un projet dans Réglages > IndexMeNow."
+
+#: includes/class-url-pusher.php
+msgid "Failed to add URL to project. The project may have been deleted."
+msgstr "Échec de l'ajout de l'URL au projet. Le projet a peut-être été supprimé."
+
+#: includes/class-url-pusher.php
+msgid "Failed to add URL to project."
+msgstr "Échec de l'ajout de l'URL au projet."
+
+#: includes/class-url-pusher.php
+msgid "Failed to create project."
+msgstr "Échec de la création du projet."
+
+#: includes/class-url-pusher.php
+msgid "URL pushed successfully (new project created)."
+msgstr "URL envoyée avec succès (nouveau projet créé)."
+
+#: includes/class-url-pusher.php
+msgid "URL is already being indexed. Please wait for completion before re-pushing."
+msgstr "L'URL est déjà en cours d'indexation. Veuillez attendre la fin du traitement avant de renvoyer."
+
+#: includes/class-manual-push.php
+msgid "An error occurred."
+msgstr "Une erreur est survenue."
+
+#: includes/class-manual-push.php
+msgid "Network error. Please try again."
+msgstr "Erreur réseau. Veuillez réessayer."
+
+#: includes/class-manual-push.php
+msgid "Permission denied."
+msgstr "Permission refusée."
+
+#: includes/class-manual-push.php
+msgid "Invalid post ID."
+msgstr "ID d'article invalide."
+
+#: includes/class-manual-push.php
+msgid "Could not get permalink."
+msgstr "Impossible de récupérer le permalien."
+
+#: includes/class-posts-list.php
+#, php-format
+msgid "%d URL pushed to IndexMeNow."
+msgid_plural "%d URLs pushed to IndexMeNow."
+msgstr[0] "%d URL envoyée vers IndexMeNow."
+msgstr[1] "%d URLs envoyées vers IndexMeNow."
+
+#: includes/class-posts-list.php
+#, php-format
+msgid "%d URL skipped."
+msgid_plural "%d URLs skipped."
+msgstr[0] "%d URL ignorée."
+msgstr[1] "%d URLs ignorées."
+
+#: includes/class-posts-list.php
+#, php-format
+msgid "%d error."
+msgid_plural "%d errors."
+msgstr[0] "%d erreur."
+msgstr[1] "%d erreurs."
+
+#: includes/class-dashboard-widget.php
+msgid "Buy credits"
+msgstr "Acheter des crédits"
+
+#: includes/class-dashboard-widget.php
+msgid "Recent pushes"
+msgstr "Envois récents"
+
+#: includes/class-dashboard-widget.php
+msgid "Full history"
+msgstr "Historique complet"
+
+#: includes/class-low-credits-notice.php
+#, php-format
+msgid "IndexMeNow: You have no credits remaining. %s to continue pushing URLs."
+msgstr "IndexMeNow : Vous n'avez plus de crédits. %s pour continuer à envoyer des URLs."
+
+#: includes/class-low-credits-notice.php
+#, php-format
+msgid "IndexMeNow: You have only %1$d credits remaining. %2$s to avoid interruption."
+msgstr "IndexMeNow : Il ne vous reste que %1$d crédits. %2$s pour éviter une interruption."
+
+#: includes/class-low-credits-notice.php
+msgid "Buy more credits"
+msgstr "Acheter plus de crédits"
+
+#: includes/class-sitemap-push.php
+msgid "No URLs found in sitemap. Make sure your sitemap is accessible."
+msgstr "Aucune URL trouvée dans le sitemap. Vérifiez que votre sitemap est accessible."
+
+#: includes/class-sitemap-push.php
+msgid "No URLs to push."
+msgstr "Aucune URL à envoyer."
+
+#: includes/class-sitemap-push.php
+#, php-format
+msgid "%1$d pushed, %2$d skipped, %3$d errors."
+msgstr "%1$d envoyées, %2$d ignorées, %3$d erreurs."
+
+#: views/settings-page.php
+msgid "IndexMeNow Settings"
+msgstr "Paramètres IndexMeNow"
+
+#: views/settings-page.php
+msgid "Connection Status"
+msgstr "Statut de connexion"
+
+#: views/settings-page.php
+msgid "Connected"
+msgstr "Connecté"
+
+#: views/settings-page.php
+msgid "Credits:"
+msgstr "Crédits :"
+
+#: views/settings-page.php
+msgid "Refresh"
+msgstr "Actualiser"
+
+#: views/settings-page.php
+msgid "Not connected"
+msgstr "Non connecté"
+
+#: views/settings-page.php
+msgid "Enter your API key below to connect."
+msgstr "Saisissez votre clé API ci-dessous pour vous connecter."
+
+#: views/settings-page.php
+msgid "API Key"
+msgstr "Clé API"
+
+#: views/settings-page.php
+msgid "Show/Hide API key"
+msgstr "Afficher/Masquer la clé API"
+
+#: views/settings-page.php
+msgid "Verify & load projects"
+msgstr "Vérifier et charger les projets"
+
+#: views/settings-page.php
+#, php-format
+msgid "Find your API key at %1$stool.indexmenow.com/docapi%2$s."
+msgstr "Retrouvez votre clé API sur %1$stool.indexmenow.com/docapi%2$s."
+
+#: views/settings-page.php
+msgid "Project"
+msgstr "Projet"
+
+#: views/settings-page.php
+#, php-format
+msgid "Create a new project automatically: %1$s%2$s (plugin wordpress)%3$s"
+msgstr "Créer un nouveau projet automatiquement : %1$s%2$s (plugin wordpress)%3$s"
+
+#: views/settings-page.php
+msgid "Use an existing project:"
+msgstr "Utiliser un projet existant :"
+
+#: views/settings-page.php
+msgid "Choose where your URLs will be sent. In auto mode, a project named after your domain will be created on first push."
+msgstr "Choisissez où vos URLs seront envoyées. En mode automatique, un projet portant le nom de votre domaine sera créé au premier envoi."
+
+#: views/settings-page.php
+msgid "Auto-push on new publish"
+msgstr "Envoi automatique à la publication"
+
+#: views/settings-page.php
+msgid "Automatically push URLs when a post is first published"
+msgstr "Envoyer automatiquement les URLs lorsqu'un article est publié pour la première fois"
+
+#: views/settings-page.php
+msgid "Auto-push on update"
+msgstr "Envoi automatique à la mise à jour"
+
+#: views/settings-page.php
+msgid "Automatically push URLs when a published post's content or title is updated"
+msgstr "Envoyer automatiquement les URLs lorsque le contenu ou le titre d'un article publié est modifié"
+
+#: views/settings-page.php
+msgid "Post types"
+msgstr "Types de contenu"
+
+#: views/settings-page.php
+msgid "Select which post types can be pushed to IndexMeNow."
+msgstr "Sélectionnez les types de contenu pouvant être envoyés vers IndexMeNow."
+
+#: views/settings-page.php
+msgid "Category filter"
+msgstr "Filtre par catégorie"
+
+#: views/settings-page.php
+msgid "Only auto-push posts from selected categories. Leave empty to push all categories."
+msgstr "Envoyer automatiquement uniquement les articles des catégories sélectionnées. Laissez vide pour toutes les catégories."
+
+#: views/settings-page.php
+msgid "No categories found."
+msgstr "Aucune catégorie trouvée."
+
+#: views/settings-page.php
+msgid "Low credits alert"
+msgstr "Alerte crédits bas"
+
+#: views/settings-page.php
+msgid "Show a warning when credits fall below this threshold. Set to 0 to disable."
+msgstr "Afficher un avertissement lorsque les crédits passent sous ce seuil. Mettre 0 pour désactiver."
+
+#: views/settings-page.php
+msgid "Save Settings"
+msgstr "Enregistrer les paramètres"
+
+#: views/settings-page.php
+msgid "Sitemap Push"
+msgstr "Envoi depuis le sitemap"
+
+#: views/settings-page.php
+msgid "Push all URLs from your sitemap to IndexMeNow. Useful for bulk indexation of existing content."
+msgstr "Envoyez toutes les URLs de votre sitemap vers IndexMeNow. Utile pour l'indexation en masse du contenu existant."
+
+#: views/settings-page.php
+msgid "Load sitemap URLs"
+msgstr "Charger les URLs du sitemap"
+
+#: views/settings-page.php
+msgid "Select all"
+msgstr "Tout sélectionner"
+
+#: views/settings-page.php
+msgid "Deselect all"
+msgstr "Tout désélectionner"
+
+#: views/settings-page.php
+msgid "Push selected URLs"
+msgstr "Envoyer les URLs sélectionnées"
+
+#: views/settings-page.php
+msgid "Push History"
+msgstr "Historique des envois"
+
+#: views/settings-page.php
+msgid "Delete entries older than:"
+msgstr "Supprimer les entrées datant de plus de :"
+
+#: views/settings-page.php
+msgid "30 days"
+msgstr "30 jours"
+
+#: views/settings-page.php
+msgid "60 days"
+msgstr "60 jours"
+
+#: views/settings-page.php
+msgid "90 days"
+msgstr "90 jours"
+
+#: views/settings-page.php
+msgid "All history"
+msgstr "Tout l'historique"
+
+#: views/settings-page.php
+msgid "Purge"
+msgstr "Purger"
+
+#: views/settings-page.php
+msgid "Date"
+msgstr "Date"
+
+#: views/settings-page.php
+msgid "URL"
+msgstr "URL"
+
+#: views/settings-page.php
+msgid "Post"
+msgstr "Article"
+
+#: views/settings-page.php
+msgid "Status"
+msgstr "Statut"
+
+#: views/settings-page.php
+msgid "Trigger"
+msgstr "Déclencheur"
+
+#: views/settings-page.php
+msgid "Message"
+msgstr "Message"
+
+#: views/manual-push-metabox.php
+msgid "URL:"
+msgstr "URL :"
+
+#: views/manual-push-metabox.php
+msgid "Recent pushes:"
+msgstr "Envois récents :"
+
+#: views/manual-push-metabox.php
+#, php-format
+msgid "Last pushed: %s"
+msgstr "Dernier envoi : %s"
+
+#: views/manual-push-metabox.php includes/class-manual-push.php
+msgid "Push to IndexMeNow"
+msgstr "Envoyer vers IndexMeNow"
+
+#: includes/class-manual-push.php
+msgid "Pushing..."
+msgstr "Envoi..."
+
+#: includes/class-manual-push.php
+msgid "Pushed!"
+msgstr "Envoyé !"
+
+#: includes/class-manual-push.php
+msgid "Error"
+msgstr "Erreur"

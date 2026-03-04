@@ -1,0 +1,50 @@
+/* IndexMeNow - Admin Bar Styles */
+
+#wp-admin-bar-imn-w2-push .ab-icon {
+    font-family: dashicons;
+    top: 2px;
+}
+
+#wp-admin-bar-imn-w2-push .ab-icon:before {
+    content: '\f317';
+    font-size: 18px;
+}
+
+#wp-admin-bar-imn-w2-push.imn-w2-pushing .ab-icon:before {
+    content: '\f463';
+    animation: imn-w2-spin 1s linear infinite;
+}
+
+#wp-admin-bar-imn-w2-push.imn-w2-success > a {
+    background-color: #00a32a !important;
+    color: #fff !important;
+}
+
+#wp-admin-bar-imn-w2-push.imn-w2-success .ab-icon:before {
+    content: '\f147';
+}
+
+#wp-admin-bar-imn-w2-push.imn-w2-error > a {
+    background-color: #d63638 !important;
+    color: #fff !important;
+}
+
+#wp-admin-bar-imn-w2-push.imn-w2-error .ab-icon:before {
+    content: '\f335';
+}
+
+@keyframes imn-w2-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Responsive: hide label on small screens */
+@media screen and (max-width: 782px) {
+    #wp-admin-bar-imn-w2-push .ab-label {
+        display: none;
+    }
+}
